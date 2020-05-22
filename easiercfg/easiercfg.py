@@ -22,7 +22,7 @@ class Config(ConfigParser):
         """
         Load Config-File.
         """
-        self.read(os.path.join(os.path.dirname(__file__), self.filename))
+        self.read(self.filename)
 
     def Show(self):
         """
