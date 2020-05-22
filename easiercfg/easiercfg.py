@@ -1,9 +1,9 @@
-from configparser import ConfigParser
+from configparser import RawConfigParser
 import os
 import sys
 
 
-class Config(ConfigParser):
+class Config(RawConfigParser):
     """
     Class for easy config file usage.
     """
