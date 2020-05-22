@@ -2,12 +2,12 @@ from distutils.core import setup
 setup(
     name='easiercfg',
     packages=['easiercfg'],
-    version='0.1',
+    version='0.2',
     license='MIT',
     description='Python Module for Config-Files focused on easy usage.',
     author='kistee',
     url='https://github.com/kistee/easiercfg',
-    download_url='https://github.com/kistee/easiercfg/archive/v_01.tar.gz',
+    download_url='https://github.com/kistee/easiercfg/archive/v_02.tar.gz',
     keywords=['config', 'cfg', 'settings'],
     install_requires=[],
     classifiers=[
