@@ -1,5 +1,6 @@
 from configparser import ConfigParser
 import os
+import sys
 
 
 class Config(ConfigParser):
@@ -22,7 +23,7 @@ class Config(ConfigParser):
         """
         Load Config-File.
         """
-        self.read(self.filename)
+        self.read(os.path.join(sys.path[0], self.filename))
 
     def Show(self):
         """
